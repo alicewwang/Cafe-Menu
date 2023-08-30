@@ -1,0 +1,111 @@
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1,
+h2 {
+    font-family: Impact, serif;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    /* The menu text CAMPER CAFE has a different space from the top than the address's space at the bottom of the menu. 
+    This is due to the browser having some default top margin for the h1 element. 
+    Change the top margin of the h1 element to 0 to remove all the top margin. */
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15px;
+    /* It would be nice if the vertical space between the h2 elements and their associated icons was smaller. 
+    The h2 elements have default top and bottom margin space, 
+    so you could change the bottom margin of the h2 elements to say 0 or another number.
+    There is an easier way, simply add a negative top margin to the img elements 
+    to pull them up from their current positions. Negative values are created 
+    using a - in front of the value. To complete this project, go ahead and 
+    use a negative top margin of 25px in the img type selector. */
+}
+
+.menu {
+    width: 80%;
+    max-width: 500px;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.item p {
+    display: inline-block;
+    /* Displays an element as an inline-level block container. 
+    The element itself is formatted as an inline element, 
+    but you can apply height and width values */
+    margin: 5px 0 5px 0;
+    font-size: 18px;
+}
+
+.flavor,
+.dessert {
+    text-align: left;
+    width: 69%;
+}
+
+.price {
+    text-align: right;
+    width: 30%;
+}
+
+.bottom-line {
+    margin-top: 5px;
+}
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: brown;
+}
+
+a:active {
+    color: brown;
+}
+
+.address {
+    margin-bottom: 5px;
+}
